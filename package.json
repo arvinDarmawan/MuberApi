@@ -1,0 +1,18 @@
+{
+  "name": "muberapi",
+  "version": "1.0.0",
+  "description": "This tutorial based on Udemy course with title \"The Complete Developers Guide to MongoDB\" (Stephen Grider)",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec \"mocha --recursive -R min\""
+  },
+  "author": "Arvin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.13",
+    "supertest": "^3.4.2"
+  }
+}
